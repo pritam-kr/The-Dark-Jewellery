@@ -1,2 +1,2 @@
-# The-Dark-Jewellery
- 
+# The-Dark-Jewelry
+ A Brand for Platinum Jewelry.
