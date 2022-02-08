@@ -1,13 +1,13 @@
 /*----Font for logo----*/
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
-@import url('./CSS/Commoncss/Nav.css');
-@import url('./CSS/Commoncss/Footer.css');
+@import url("./CSS/Commoncss/Nav.css");
+@import url("./CSS/Commoncss/Footer.css");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.5px solid var(--border-color);
+  /* border: 0.5px solid var(--border-color); */
   background: url("./assets/1.jpg");
   background-position: center;
   background-size: cover;
@@ -47,14 +47,55 @@ body {
 
 .hero-container {
   background-color: rgba(122, 122, 122, 0.212);
-  min-height: 500px;
+
   margin: 2em 0;
-  background: url("./assets/Untitled\ design.png");
-  background-position:  center ;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.hero-img-wrapper {
+  height: 450px;
+  position: relative;
+}
+.hero-content-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(156, 155, 155, 0.5);
+}
+.hero-content {
+  position: absolute;
+  max-width: 500px;
+  top: 6rem;
+  left: 6rem;
+  margin: 0 20px;
 }
 
+@media screen and (max-width: 700px) {
+  .hero-content{
+    top: 10rem;
+    left: 0rem;
+  }
+}
+
+.hero-img {
+  border-radius: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-shop {
+  background: var(--primary-color);
+  color: var(--text-color);
+  margin-top: 2.5em;
+  padding: 1.2em 2.5em;
+  border-radius: 0;
+  font-weight: 600;
+}
 .product-container {
   /* min-height: 200px; */
   display: grid;
@@ -70,62 +111,95 @@ body {
   }
 }
 
-.product-box {
-    background-color: rgba(0, 0, 0, 0.212);
-    padding: 3em;
-  }
+.product-box { 
+  padding: 1em;
+}
 
-.horizontal-cart-card{
-    box-shadow: none;
-     border-radius: 0;
-     height: auto;
+.horizontal-cart-card {
+  background-color: #fff;
+  border: 0.5px solid var(--border-color);
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0;
+  height: 300px;
 }
 
 @media screen and (max-width: 500px) {
-    .horizontal-cart-card{
-        flex-direction: column;
-    
-    }
+  .product-box{
+    padding: 0;
+  }
+  .horizontal-cart-card {
+    background-color: #fff;
+     
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
 }
-.horizontal-cart-card .card-content{
-    justify-content: flex-start;
+.horizontal-cart-card .card-content {
+  justify-content: flex-start;
 }
 
 .horizontal-cart-card img {
-    max-width: 200px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 0 !important;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0 !important;
 }
 
 @media screen and (max-width: 500px) {
-    .horizontal-cart-card img{
-        max-width: 100%;
-        height: 200px;
-    }
+  .horizontal-cart-card img {
+    max-width: 100%;
+    height: 200px;
+  }
 }
-.card-price{
-    margin: 1em 0 0 0;
+.card-price {
+  margin: 1em 0 0 0;
 }
-.horizontal-cart-card .btn{
-    border-radius: 0;
-    padding: 1em;
-}
-
-.btn-move-cart{
-    color: var(--text-color);
-    background-color: var(--primary-color);
-}
-.btn-wishlist{
-    border: 1px solid var(--primary-color);
-    width: 100%;
-}
-.btn-wishlist:hover{
-    color: var(--text-color);
-    background-color: var(--primary-color);
-}
-.card-footer{
-    padding: 1em 0;
-    margin-top: 2em;
+.horizontal-cart-card .btn {
+  border-radius: 0;
+  padding: 1em;
 }
 
+.btn-move-cart {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+.btn-wishlist {
+  border: 1px solid var(--primary-color);
+  width: 100%;
+}
+.btn-wishlist:hover {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+.card-footer {
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+
+
+.advertise-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 2em 0;
+}
+.advertise{
+   
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+}
+.advertise img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+.add-box-one{
+   
+}
+.add-box-two{
+   
+}
