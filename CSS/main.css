@@ -2,7 +2,6 @@
 @import url(../CSS/scrollbar.css);
 @import url(../style.css);
 @import url(../CSS/cart.css);
-@import url(../CSS/signup.css);
 @import url(../CSS/login.css);
 @import url(../CSS/logout.css);
 @import url(../CSS/wishlist.css);
@@ -18,6 +17,7 @@
 
 html{
     font-size: 67%;
+    scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 767px){
@@ -40,12 +40,10 @@ html{
     --primary-hover: #201e28e5;
     --input-background: rgba(194, 196, 197, 0.452);
     --bg-footer: rgb(80, 80, 80);
+    --background-color: #fff;
 }
 
-/* i{
-    font-size: smaller;
-}  */
-
+ 
 
 
  
