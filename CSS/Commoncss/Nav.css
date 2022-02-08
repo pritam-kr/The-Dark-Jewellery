@@ -1,0 +1,56 @@
+.navigation {
+    box-shadow: 0px 2px 3px 3px rgb(129, 126, 126, 10%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+  }
+  .nav-center {
+    flex-basis: 25%;
+  }
+  .nav-center .input-search {
+    width: 100%;
+    padding: 1.1em 0.6em;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--input-background);
+  }
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 10%;
+  }
+  
+  .nav-logo {
+    color: var(--primary-color);
+    font-size: medium;
+  }
+  
+  .login-button {
+    transition: 0.1s all;
+    border-radius: 0;
+  }
+  
+  .badge-icon {
+      font-size: 1.3rem;
+    position: relative;
+  }
+  
+   
+  .badge-number {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 50%;
+  }
