@@ -1,4 +1,5 @@
 @import url('https://binary-ui.netlify.app/components/CDN.css');
+@import url(../CSS/scrollbar.css);
 @import url(../style.css);
 @import url(../CSS/cart.css);
 @import url(../CSS/signup.css);
@@ -6,3 +7,45 @@
 @import url(../CSS/logout.css);
 @import url(../CSS/wishlist.css);
 @import url(../CSS/products.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+}
+
+html{
+    font-size: 67%;
+}
+
+@media screen and (max-width: 767px){
+    html{
+        font-size: 60%;
+    }
+}
+
+::placeholder{
+    font-size: medium;
+} 
+
+
+:root{
+    --heading-color: #201E28;
+    --border-color: #9e9e9e;
+    --body-background: #f7f7f7;
+    --common-box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+    --primary-color: #201E28;
+    --primary-hover: #201e28e5;
+    --input-background: rgba(194, 196, 197, 0.452);
+    --bg-footer: rgb(80, 80, 80);
+}
+
+/* i{
+    font-size: smaller;
+}  */
+
+
+
+ 
