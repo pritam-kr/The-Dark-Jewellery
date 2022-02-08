@@ -9,6 +9,8 @@
     left: 0;
     right: 0;
     background-color: #fff;
+    border-bottom: 0;
+    z-index: 999;
   }
   .nav-center {
     flex-basis: 25%;
@@ -29,19 +31,21 @@
   
   .nav-logo {
     color: var(--primary-color);
-    font-size: medium;
+    font-size: 2rem;
   }
   
   .login-button {
     transition: 0.1s all;
     border-radius: 0;
+    padding: 0.7em 2em;
   }
   
-  .badge-icon {
-      font-size: 1.3rem;
-    position: relative;
-  }
+   
   
+  .icon-badge i{
+    font-size: 2.3rem;
+    cursor: pointer;
+  }
    
   .badge-number {
     background-color: red;
