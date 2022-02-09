@@ -79,6 +79,7 @@
     border-bottom: 0.5px solid var(--border-color);
     object-fit: cover;
     border-radius: 0;
+    height: 100%;
 }
 .card-footer{
     padding: 0;
