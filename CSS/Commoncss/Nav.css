@@ -1,8 +1,6 @@
 .navigation {
     box-shadow: 0px 2px 3px 3px rgb(129, 126, 126, 10%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
     padding: 0.5em 2em;
     position: fixed;
     top: 0;
