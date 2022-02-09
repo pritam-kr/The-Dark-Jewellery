@@ -31,6 +31,8 @@
     grid-gap: 10px;
 }
 .sidebar-fillers{
+    /* position: sticky;
+    top: 6rem; */
     background-color: var(--background-color);
     padding: 1em;
     height: max-content;
@@ -56,6 +58,7 @@
 }
 
 .all-products{
+    background-color: var(--background-color);
     padding: 1em;
 }
 
@@ -67,8 +70,13 @@
     flex-wrap: wrap;
     padding: 1em 0.5em;
 }
-.card-img{
+.badge-card{
+    border-radius: 0;
+    background-color: #fff;
     border: 0.5px solid var(--border-color);
+}
+.card-img{
+    border-bottom: 0.5px solid var(--border-color);
     object-fit: cover;
     border-radius: 0;
 }
