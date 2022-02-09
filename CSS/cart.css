@@ -11,7 +11,6 @@
   background-color: #fff;
   min-height: 320px;
   overflow: hidden;
-  width: 100% !important;
 }
 .images-card img {
   height: auto;
