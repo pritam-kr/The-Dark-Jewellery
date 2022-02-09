@@ -1,0 +1,93 @@
+@import url("https://binary-ui.netlify.app/components/CDN.css");
+@import url(../CSS/main.css);
+
+.cart-container {
+  min-height: 85vh;
+}
+.images-card {
+  border: 0.5px solid var(--border-color);
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fff;
+  min-height: 320px;
+  overflow: hidden;
+}
+.images-card img {
+  height: auto;
+}
+.cart-title {
+  padding: 1em 0;
+}
+.card-content {
+  justify-content: flex-start;
+  padding: 2em;
+}
+.btn-remove-cart {
+  width: 100%;
+  background-color: transparent;
+}
+
+.product-price {
+  margin-top: 0.5em;
+}
+.discount-price {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: var(--border-color);
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.quantity .text-md {
+  margin-right: 1em;
+}
+
+.quantity-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  padding: 0.5em;
+  width: 20px;
+  margin: 0 0.5em;
+  height: 15px;
+  border: 0.5px solid var(--border-color);
+}
+.material-icons-outlined {
+  cursor: pointer;
+}
+
+.price-details {
+  border: 1px solid var(--border-color);
+  width: 600px;
+  padding: 1em 1.5em;
+  background-color: var(--background-color);
+}
+.price-details .lists {
+  padding: 0.5em;
+  border-bottom: 0.5px solid var(--border-color);
+}
+.cart-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-place-order {
+    border-radius: 0;
+  margin-top: 1em;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .images-card {
+    display: none;
+  }
+  .cart-wrapper {
+    flex-wrap: wrap;
+  }
+}
