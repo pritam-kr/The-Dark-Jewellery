@@ -14,10 +14,9 @@
 }
 .free-badge > .badge{
     margin-left: 0;
+    background-color: transparent  ;
 }
-.free-badge span{
-    background-color: transparent !important;
-}
+ 
 .all-products-section{
     margin: 8rem 20px 2rem 20px;
 }
