@@ -1,0 +1,81 @@
+@import url('https://binary-ui.netlify.app/components/CDN.css');
+@import url(../CSS/main.css);
+
+
+.badge{
+    
+    background-color: var(--primary-color);
+}
+
+.free-badge{
+    background-color: var(--primary-color);
+    width: fit-content;
+    left: 0;
+}
+.free-badge > .badge{
+    margin-left: 0;
+}
+.free-badge span{
+    background-color: transparent !important;
+}
+.all-products-section{
+    margin: 8rem 20px 2rem 20px;
+}
+.clear-filler{
+    width: fit-content;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.products-wrapper{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 10px;
+}
+.sidebar-fillers{
+    background-color: var(--background-color);
+    padding: 1em;
+    height: max-content;
+}
+.sidebar-box{
+    margin-bottom: 2em;
+}
+.sidebar-box .large-heading{
+    margin-bottom: 0.5em;
+}
+.sidebar-box ul li{
+    margin-bottom: 0.5em;
+}
+.label{
+    margin-left: 0.5em;
+}
+.all-products{
+}
+
+.range-input{
+    padding: 0;
+    cursor: pointer;
+}
+
+.all-products{
+    padding: 1em;
+}
+
+.projects-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fit, minmax(230px, 270px) );
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 1em 0.5em;
+}
+.card-img{
+    border-bottom: 0.5px solid var(--border-color);
+    object-fit: cover;
+    border-radius: 0;
+}
+.card-footer{
+    padding: 0;
+}
+.btn-move-cart{
+    border-radius: 0;
+}
