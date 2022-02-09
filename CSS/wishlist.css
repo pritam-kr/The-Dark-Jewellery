@@ -1,0 +1,8 @@
+@import url('https://binary-ui.netlify.app/components/CDN.css');
+@import url(../CSS/main.css);
+ 
+
+.wishlist-title{
+    padding: 1em 0;
+}
+ 
