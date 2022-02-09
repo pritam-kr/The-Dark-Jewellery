@@ -37,6 +37,7 @@
 }
 .sidebar-box{
     margin-bottom: 2em;
+    border-bottom: 0.5px solid var(--border-color);
 }
 .sidebar-box .large-heading{
     margin-bottom: 0.5em;
@@ -47,8 +48,7 @@
 .label{
     margin-left: 0.5em;
 }
-.all-products{
-}
+ 
 
 .range-input{
     padding: 0;
@@ -68,7 +68,7 @@
     padding: 1em 0.5em;
 }
 .card-img{
-    border-bottom: 0.5px solid var(--border-color);
+    border: 0.5px solid var(--border-color);
     object-fit: cover;
     border-radius: 0;
 }
