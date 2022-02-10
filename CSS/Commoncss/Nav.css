@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .navigation {
     box-shadow: 0px 2px 3px 3px rgb(129, 126, 126, 10%);
     
@@ -29,7 +31,8 @@
   
   .nav-logo {
     color: var(--primary-color);
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
   }
   
   .login-button {
