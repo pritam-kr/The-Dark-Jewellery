@@ -1,21 +1,20 @@
-@import url('https://binary-ui.netlify.app/components/CDN.css');
 @import url(../CSS/main.css);
 
-.login-form-container{
-    width: 100%;
-    min-height: 100vh;
+.login-form-container {
+  width: 100%;
+  min-height: 100vh;
 }
 
-.login-form-container .form{
-    background-color: var(--background-color);
-    margin: 0 0.5em;
-    border: none;
-    border-radius: 0;
+.login-form-container .form {
+  background-color: var(--background-color);
+  margin: 0 0.5em;
+  border: none;
+  border-radius: 0;
 }
-.btn-submit{
-    border-radius: 0;
+.btn-submit {
+  border-radius: 0;
 }
 
-.input{
-    border-radius: 0;
+.input {
+  border-radius: 0;
 }

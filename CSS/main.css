@@ -1,4 +1,4 @@
-@import url('https://binary-ui.netlify.app/components/CDN.css');
+@import url("https://binary-ui.netlify.app/components/CDN.css");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
@@ -6,65 +6,59 @@
 @import url(../CSS/scrollbar.css);
 @import url(../style.css);
 @import url(../CSS/cart.css);
-@import url(../CSS/login.css);
-@import url(../CSS/logout.css);
 @import url(../CSS/products.css);
 
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 67%;
-    scroll-behavior: smooth;
+html {
+  font-size: 67%;
+  scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 767px){
-    html{
-        font-size: 60%;
-    }
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
 }
 
-::placeholder{
-    font-size: medium;
-} 
-
-
-:root{
-    --heading-color: #201E28;
-    --border-color: #33333333;
-    --body-background: #f7f7f7;
-    --common-box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
-    --primary-color: #201E28;
-    --primary-hover: #201e28e5;
-    --input-background: rgba(194, 196, 197, 0.452);
-    --bg-footer: rgb(80, 80, 80);
-    --background-color: #fff;
+::placeholder {
+  font-size: medium;
 }
 
- 
-.large-heading{
-    font-size: 1.7rem;
-    font-weight: 600;
-} 
-.hero-title{
-    font-size: 3rem;
-    line-height: 3.1rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-}
-.paragraph{
-    font-size: 1.8rem;
+:root {
+  --heading-color: #201e28;
+  --border-color: #33333333;
+  --body-background: #f7f7f7;
+  --common-box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+  --primary-color: #201e28;
+  --primary-hover: #201e28e5;
+  --input-background: #c2c4c573;
+  --bg-footer: #505050;
+  --background-color: #fff;
 }
 
-.font-bold{
-    font-weight: 600;
+.large-heading {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.hero-title {
+  font-size: 3rem;
+  line-height: 3.1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.paragraph {
+  font-size: 1.8rem;
 }
 
-.thin{
-    font-weight: 300;
+.font-bold {
+  font-weight: 600;
+}
+
+.thin {
+  font-weight: 300;
 }
