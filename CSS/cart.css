@@ -26,7 +26,9 @@
   width: 100%;
   background-color: transparent;
 }
-
+.btn-remove-cart:hover {
+  background-color: var(--primary-color);
+}
 .product-price {
   margin-top: 0.5em;
 }
@@ -78,7 +80,7 @@
 }
 
 .btn-place-order {
-    border-radius: 0;
+  border-radius: 0;
   margin-top: 1em;
   width: 100%;
 }
