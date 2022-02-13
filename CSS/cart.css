@@ -11,9 +11,7 @@
   min-height: 320px;
   overflow: hidden;
 }
-.images-card img {
-  height: auto;
-}
+ 
 .cart-title {
   padding: 1em 0;
 }
@@ -31,11 +29,7 @@
 .product-price {
   margin-top: 0.5em;
 }
-.discount-price {
-  font-size: 1rem;
-  text-decoration: line-through;
-  color: var(--border-color);
-}
+
 
 .quantity {
   display: flex;
