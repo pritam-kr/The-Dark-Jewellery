@@ -4,6 +4,15 @@
 
 .badge{
     background-color: var(--primary-color);
+    
+}
+
+.new-badge .badge-h6{
+    border-radius: 0;
+}
+
+.new-badge .badge-h6:hover{
+    background-color: var(--heart-icon-hover);
 }
 
 .free-badge{
@@ -30,8 +39,6 @@
     grid-gap: 10px;
 }
 .sidebar-fillers{
-    /* position: sticky;
-    top: 6rem; */
     background-color: var(--background-color);
     padding: 1em;
     height: max-content;
@@ -78,7 +85,7 @@
     border-bottom: 0.5px solid var(--border-color);
     object-fit: cover;
     border-radius: 0;
-    height: 100%;
+    height: 18rem;
 }
 .card-footer{
     padding: 0;

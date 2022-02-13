@@ -39,6 +39,7 @@ html {
   --input-background: #c2c4c573;
   --bg-footer: #505050;
   --background-color: #fff;
+  --heart-icon-hover: #c50505;
 }
 
 .large-heading {
@@ -61,4 +62,10 @@ html {
 
 .thin {
   font-weight: 300;
+}
+
+.discount-price {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  color:  #3333336e;
 }
