@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
 @import url(../CSS/scrollbar.css);
-@import url(../style.css);
+
 
 @import url(../CSS/products.css);
 
@@ -76,4 +76,8 @@ html {
 .cart-icon{
   margin-right: 0.5rem;
   font-size: 1.5rem;
+}
+
+.product-price{
+  color: #474747;
 }
