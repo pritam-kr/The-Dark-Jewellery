@@ -43,7 +43,6 @@ html {
   --bg-footer: #505050;
   --background-color: #fff;
   --heart-icon-hover: #c50505;
-  --wishlist-color: #797979fd;
 }
 
 .large-heading {
@@ -87,7 +86,5 @@ html {
   font-size: 2.5rem;
   position: absolute;
   top: 0.5rem;
-  right: 1.5rem;
-  color: var(--wishlist-color);
-  cursor: pointer;
+  right: 10px;
 }
