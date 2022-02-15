@@ -2,12 +2,17 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
+/*Font for Paragraph and small-small headings */
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500&display=swap");
+
+/*font for headings */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
 @import url(../CSS/scrollbar.css);
-
 
 @import url(../CSS/products.css);
 
@@ -29,6 +34,7 @@ html {
 }
 
 ::placeholder {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-size: medium;
 }
 
@@ -44,26 +50,78 @@ html {
   --background-color: #fff;
   --heart-icon-hover: #c50505;
   --wishlist-color: #7a7a7a;
+
+  --paragraph-font-family: "Source Sans Pro", sans-serif;
+  --heading-font-family: "Merriweather", serif;
+  --discount-color: #3333336e;
 }
 
-.section-heading{
+.section {
+  padding: 3rem 0;
+}
+
+.section-heading {
   font-size: 3rem;
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  font-family: var(--heading-font-family);
 }
 
 .large-heading {
+  font-family: var(--heading-font-family);
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 400;
 }
+
+.paragraph {
+  font-weight: 400;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1.9rem;
+  line-height: 2rem;
+}
+
+.product-description {
+  line-height: 2rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+li{
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+label {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.btn {
+  font-weight: 400;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+.category-title {
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+}
+
+.product-title {
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+}
+
+.page-title{
+  padding: 1.5rem 0
+}
+
+.card-footer {
+  padding: 0;
+}
+
 .hero-title {
   font-size: 3rem;
   line-height: 3.1rem;
   font-weight: 300;
   margin-bottom: 2rem;
-}
-.paragraph {
-  font-size: 1.8rem;
 }
 
 .font-bold {
@@ -76,24 +134,34 @@ html {
 
 .discount-price {
   font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
   text-decoration: line-through;
-  color:  #3333336e;
+  color: var(--discount-color);
 }
 
-.cart-icon{
+.cart-icon {
   margin-right: 0.5rem;
   font-size: 1.5rem;
 }
 
-.product-price{
-  color: #474747;
+.product-price {
+  margin: 1rem 0;
+  font-family: var(--heading-font-family);
 }
 
-.wishlist-badge{
+.wishlist-badge {
   font-size: 2.5rem;
   position: absolute;
   top: 0.5rem;
   right: 10px;
   cursor: pointer;
   color: var(--wishlist-color);
+}
+
+
+.form-heading{
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: var(--heading-font-family);
 }

@@ -24,8 +24,8 @@
   margin: 0 9px;
 }
 
-.cart-title {
-  padding: 1em 0;
+.product-title {
+  margin-bottom: 1rem;
 }
 .card-content {
   justify-content: flex-start;
