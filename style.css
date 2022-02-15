@@ -50,7 +50,6 @@ body {
 }
 
 .hero-container {
-  background-color: rgba(122, 122, 122, 0.212);
   margin: 2em 0;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -68,7 +67,11 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: rgba(156, 155, 155, 0.5);
+  transition: 0.2s all;
+  background-color: rgba(226, 226, 226, 0.623);
+}
+.hero-content-wrapper:hover {
+  background-color: rgba(226, 226, 226, 0.39);
 }
 .hero-content {
   position: absolute;
@@ -79,10 +82,11 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  
   .hero-content {
-    top: 10rem;
+    top: 15rem;
     left: 0rem;
+    text-align: center;
+     
   }
 }
 
@@ -90,6 +94,7 @@ body {
   border-radius: 0;
   height: 100%;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .btn-shop {
@@ -103,16 +108,17 @@ body {
 .btn-shop:hover {
   background-color: var(--primary-hover);
 }
+
 .product-container {
   display: grid;
   grid-gap: 10px;
   justify-content: center;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) )
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 @media screen and (max-width: 500px) {
-  .product-container{
-     place-items: center;
+  .product-container {
+    place-items: center;
   }
 }
 
@@ -120,13 +126,12 @@ body {
   padding: 1em;
 }
 
-.product-img{
+.product-img {
   min-height: 15rem;
 }
 
-.vertical-cart-card .product-img img{
+.vertical-cart-card .product-img img {
   object-fit: cover;
-  
 }
 
 .vertical-cart-card {
@@ -140,12 +145,12 @@ body {
 
 .vertical-cart-card .card-content {
   padding: 1em;
-   text-align: center;
+  text-align: center;
 }
 
 .vertical-cart-card .btn {
   border-radius: 0;
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .btn-move-cart {
@@ -192,6 +197,13 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 0;
+  filter: grayscale(100%);
+  transition: 0.3s all;
+  object-fit: cover;
+}
+
+.advertise img:hover {
+  filter: grayscale(0%);
 }
 .advertise-content {
   color: var(--text-color);
@@ -200,17 +212,18 @@ body {
   padding: 1.5em;
   position: absolute;
   bottom: 0;
-  transition: 0.3s all;
+  transition: 0.1s all;
   width: 100%;
-  background-color: rgba(70, 70, 70, 0.801);
+  background-color: rgba(0, 0, 0, 0.308);
 }
 
 .btn-buy {
   margin-top: 1em;
   border-radius: 0;
   transition: 0.2s all;
-  padding: 1em 1.5em;
-  background-color: rgba(255, 255, 255, 0.377);
+  padding: 1em 2.5em;
+  font-size: 1.4rem;
+  background-color: var(--body-background);
 }
 .btn-buy:hover {
   color: var(--text-color);
