@@ -15,6 +15,8 @@
 @import url(../CSS/scrollbar.css);
 
 @import url(../CSS/products.css);
+@import url(../CSS/Commoncss/Footer.css);
+ 
 
 * {
   padding: 0;
